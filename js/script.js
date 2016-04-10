@@ -1,14 +1,4 @@
-//load projects
-var projects = []
-var data = $.ajax({
-	dataType: "json",
-	url: "projects.json",
-	success: function(){
-		$.each(data.responseJSON,function(){
-			projects.push(this)
-		})
-	}
-})
+
 
 //get by category
 var showProjects = function(category){
@@ -18,7 +8,7 @@ var showProjects = function(category){
 		if(v.category == category && shown < 3){
 			shown++
 			url = v.title.replace(/\s/g, '');
-			$("#tag-squares").append("<div class='col-sm-4'><a href='perspectives/"+url+".php' class='square'><div class='tag-title'>"+v.title+"</div><div class='author'>"+v.author+"</div><div class='social'></div></a></div>")
+			$("#tag-squares").append("<div class='col-sm-4'><a href='perspectives/"+url+".php' class='square'><div class='tag-title'>"+v.title+"</div><div class='author'>"+v.author+"</div></a></div>")
 		}
 	})
 }

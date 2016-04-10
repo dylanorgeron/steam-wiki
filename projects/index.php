@@ -2,10 +2,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<?php include "inc/head.php"; ?>
+		<?php include "../inc/head.php"; ?>
 	</head>
 	<body>
-		<?php include "inc/nav.php"; ?>
+		<?php include "../inc/nav.php"; ?>
 
 		<div id="hero">
 			<div class="container">
@@ -21,10 +21,10 @@
 						Our goal is to creat eht beginning of something buigger, a place where anyone can contribute their ideas and opinions to be shared and explored. For the first project, we have chosen to dissec the Love Jack, UTD's most iconic sculpture.
 					</p>
 					<br>
-					<a id="discover" href="">Discover Perspectives</a>
+					<a id="discover" href="perspectives.php">Discover Perspectives</a>
 				</div>
 			</div>
 		</div>
-		<?php include "inc/footer.php"; ?>
+		<?php include "../inc/footer.php"; ?>
 	</body>
 </html>

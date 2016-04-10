@@ -4,7 +4,7 @@
 		min-height: 100%;
 		padding: 0;
 		margin: 0;
-		font-family: 'Nunito', sans-serif;
+		font-family: 'Nunito', sans-serif !important;
 	}
 
 	.pull-right{
@@ -18,6 +18,24 @@
 		text-align: center;
 		width: 100%;
 		color: #A5A5A5;
+	}
+	.social .st_facebook_large span span{
+		background-image: url("../img/facebook.png") !important;
+	    background-size:     cover;                
+	    background-repeat:   no-repeat;
+	    background-position: center center;  
+	}
+	.social .st_twitter_large span span{
+		background-image: url("../img/twitter.png") !important;
+	    background-size:     cover;                
+	    background-repeat:   no-repeat;
+	    background-position: center center;  
+	}
+	.social .st_pinterest_large span span{
+		background-image: url("../img/pintrest.png") !important;
+	    background-size:     cover;                
+	    background-repeat:   no-repeat;
+	    background-position: center center;  
 	}
 
 
@@ -142,6 +160,10 @@
 		background: #4E4E4E;
 	}
 
+	.square .social{
+		margin-top: 20px;
+	}
+
 	#tag-squares .col-sm-4{
 		padding-bottom: 10px;
 	}
@@ -171,46 +193,71 @@
 
 
 /*HERO*/
-#hero{
-	background-image: url("../img/jack.jpg");
-    background-size:     cover;                
-    background-repeat:   no-repeat;
-    background-position: center center;  
+	#hero{
+		background-image: url("../img/jack.jpg");
+	    background-size:     cover;                
+	    background-repeat:   no-repeat;
+	    background-position: center center;  
+	}
+
+	#hero-text{
+		max-width: 400px;
+		width: 100%;
+		padding:100px 20px;
+		color:white;
+		background-color: rgba(0, 0, 0, 0.45);
+	    text-shadow: 1px 1px black;
+	}
+
+	#hero h1{
+	    font-weight: bold;
+	    letter-spacing: 4px;
+	    font-size: 3em;
+	}
+
+	#hero h3{
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    font-size: 1.3em;
+	}
+
+	#hero a{
+		color: white;
+	    border: 2px solid white;
+	    padding: 5px 15px;
+	    transition: .2s;
+	}
+
+	#hero a:hover{
+		color: black;
+	    border: 2px solid white;
+	    padding: 5px 15px;
+	    background: white;
+	    text-shadow: none;
+	    text-decoration: none;
+	}
+
+/*PERSPECTIVES*/
+#perspectives .col-sm-4{
+	margin-bottom: 20px;
 }
 
-#hero-text{
-	max-width: 400px;
-	width: 100%;
-	padding:100px 20px;
-	color:white;
-	background-color: rgba(0, 0, 0, 0.45);
-    text-shadow: 1px 1px black;
-}
-
-#hero h1{
-    font-weight: bold;
-    letter-spacing: 4px;
-    font-size: 3em;
-}
-
-#hero h3{
+#perspectives h1{
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-#hero a{
-	color: white;
-    border: 2px solid white;
-    padding: 5px 15px;
-    transition: .2s;
-}
-
-#hero a:hover{
-	color: black;
-    border: 2px solid white;
-    padding: 5px 15px;
-    background: white;
-    text-shadow: none;
-    text-decoration: none;
+#perspectives #main-title{
+    text-transform: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #4C9859;
+    padding-bottom: 10px;
 }
