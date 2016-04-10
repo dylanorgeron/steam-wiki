@@ -1,0 +1,157 @@
+[
+	{
+		"title":"Sonification of Jack",
+		"author":"Piyush Kumar",
+		"category":"Science"
+	},
+	{
+		"title":"Spatial Data Structure of Jack",
+		"author":"Kranthi Dhanala",
+		"category":"Science"
+	},
+	{
+		"title":"Flowchart for Creating Jack",
+		"author":"Melissa Dagley",
+		"category":"Science"
+	},
+	{
+		"title":"Data Flow Diagram for Jack",
+		"author":"Melissa Dagley",
+		"category":"Science"
+	},
+	{
+		"title":"ThreeJS code representation",
+		"author":"Kranthi Dhanala",
+		"category":"Science"
+	},
+	{
+		"title":"Sonification of Jack",
+		"author":"Piyush Kumar",
+		"category":"Technology"
+	},
+	{
+		"title":"Filter Pipeline",
+		"author":"Melissa Dagley",
+		"category":"Technology"
+	},
+	{
+		"title":"Flowchart for Creating Jack",
+		"author":"Melissa Dagley",
+		"category":"Technology"
+	},
+	{
+		"title":"Data Flow Diagram for Jack",
+		"author":"Melissa Dagley",
+		"category":"Technology"
+	},
+	{
+		"title":"GIF Animation",
+		"author":"Kelly Park",
+		"category":"Technology"
+	},
+	{
+		"title":"Process Flowchart",
+		"author":"Dylan Orgeron",
+		"category":"Technology"
+	},
+	{
+		"title":"HTML",
+		"author":"Dylan Orgeron",
+		"category":"Technology"
+	},
+	{
+		"title":"3D Model and Render",
+		"author":"Amanda Marder",
+		"category":"Technology"
+	},
+	{
+		"title":"Fabrication of Jack",
+		"author":"Amanda Marder",
+		"category":"Technology"
+	},
+	{
+		"title":"ThreeJS code representation",
+		"author":"Kranthi Dhanala",
+		"category":"Technology"
+	},
+	{
+		"title":"Flowchart for Creating Jack",
+		"author":"Melissa Dagley",
+		"category":"Engineering"
+	},
+	{
+		"title":"Sonification of Jack",
+		"author":"Piyush Kumar",
+		"category":"Engineering"
+	},
+	{
+		"title":"Fabrication of Jack",
+		"author":"Amanda Marder",
+		"category":"Engineering"
+	},
+	{
+		"title":"Etymology of Jack",
+		"author":"Piyush Kumar",
+		"category":"Art"
+	},
+	{
+		"title":"Personal Story of Jack in India",
+		"author":"Kranthi Dhanala",
+		"category":"Art"
+	},
+	{
+		"title":"History of the Artist",
+		"author":"Dylan Orgeron",
+		"category":"Art"
+	},
+	{
+		"title":"Love Jack Society",
+		"author":"Amanda Marder",
+		"category":"Art"
+	},
+	{
+		"title":"Filter Pipeline",
+		"author":"Melissa Dagley",
+		"category":"Art"
+	},
+	{
+		"title":"Branding",
+		"author":"Kelly Park",
+		"category":"Art"
+	},
+	{
+		"title":"GIF Animation",
+		"author":"Kelly Park",
+		"category":"Art"
+	},
+	{
+		"title":"History of Game of Jacks",
+		"author":"Piyush Kumar",
+		"category":"Art"
+	},
+	{
+		"title":"3D Model and Render",
+		"author":"Amanda Marder",
+		"category":"Art"
+	},
+	{
+		"title":"Fabrication of Jack",
+		"author":"Amanda Marder",
+		"category":"Art"
+	},
+	{
+		"title":"Process Flowchart",
+		"author":"Dylan Orgeron",
+		"category":"Art"
+	},
+	{
+		"title":"ThreeJS code representation",
+		"author":"Kranthi Dhanala",
+		"category":"Math"
+	},
+	{
+		"title":"HTML",
+		"author":"Dylan Orgeron",
+		"category":"Math"
+	}
+]
