@@ -17,6 +17,7 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">3D Model and Render</h1>
+				<div class="author">Amanda Marder</div>
 				<hr>
 
 				<img src="https://1.bp.blogspot.com/-g8Bk8c4FFr8/Vtho1qNWycI/AAAAAAAAMLc/8whOoUFDRgs/s1600/Screenshot_1.jpg">

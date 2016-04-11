@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">Recreating “JACK” using three js</h1>
+				<div class="author">Kranthi Dhanala</div>
+				
 				<hr>
 
 				<h2 class="sub-title"></h2>

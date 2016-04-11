@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">Love Jack as HTML</h1>
+				<div class="author">Dylan Orgeron</div>
+				
 				<hr>
 
 				<p>As a web developer, I looked at what other ways the Lovejack could be represented. I decided to try and recreate the Lovejack using HTML and CSS. </p>

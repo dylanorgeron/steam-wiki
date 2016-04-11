@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">‘JACK’ Sculpture by Jim Love(1927-2005)</h1>
+				<div class="author">Kranthi Dhanala</div>
+				
 				<hr>
 
 				<h2 class="sub-title">The artist James Love, and his life and thoughts</h2>

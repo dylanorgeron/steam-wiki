@@ -9,6 +9,7 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">Data Flow Diagram</h1>
+				<div class="author">Melissa Dagley</div>
 				<hr>
 
 				<img src="https://mdagleycautd.files.wordpress.com/2016/03/lovejack_dfd1.png?w=940">

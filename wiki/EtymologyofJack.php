@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">Etymology of “Jack”</h1>
+				<div class="author">Piyush Kumar</div>
+				
 				<hr>
 
 				<h2 class="sub-title"></h2>

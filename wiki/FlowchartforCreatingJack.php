@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">Control Flow Chart</h1>
+				<div class="author">Melissa Dagley</div>
+				
 				<hr>
 
 				<p>To gain a better understanding of how the Love Jack could have been constructed I created a simplified schematic of how the sculpture could be broken down into pieces.</p>

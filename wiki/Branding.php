@@ -14,6 +14,7 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">The Love Jack Society Branding</h1>
+				<div class="author">Kelly Park</div>
 				<hr>
 
 				<p>The Love Jack is a giant red sculpture situated in the courtyard of Art and Technology building was first in 1976, is iconic of the University’s larger-than-life thinking. Originally called “Jack,” the sculpture was quickly renamed the Love Jack by students who joined its original name with the name of the sculptor, Jim Love. </p>

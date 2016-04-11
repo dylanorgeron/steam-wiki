@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">Sonification of Jack</h1>
+				<div class="author">Piyush Kumar</div>
+				
 				<hr>
 
 				<h2 class="sub-title">Introduction</h2>

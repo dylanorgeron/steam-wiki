@@ -70,9 +70,12 @@
 		background: none;
 	}
 
-	nav h2{
-		font-weight: bold;
-		letter-spacing: 2px;
+	#branding{
+	    display: block;
+	    font-weight: bold;
+	    letter-spacing: 2px;
+	    font-size: 1.5em;
+	    margin-bottom: 10px;
 	}
 
 
@@ -194,7 +197,7 @@
 
 /*HERO*/
 	#hero{
-		background-image: url("../img/jack.jpg");
+		background-image: url("../img/jack.JPG");
 	    background-size:     cover;                
 	    background-repeat:   no-repeat;
 	    background-position: center center;  

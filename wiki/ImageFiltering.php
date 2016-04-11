@@ -12,8 +12,11 @@
 		<?php include "../inc/nav.php"; ?>
 			
 			<div class="container" id="article">
+
 				
 				<h1 id="article-title">Image Filtering</h1>
+				<div class="author">Kelly Park</div>
+				
 				<hr>
 
 				<p>Inspired by the nature of converging angles of the Jack, I created a photo manipulation of Jack using Photoshop. Photos are taken in multiple angles and locations where the viewers will look at the Jack. Different cropped images of Jack forms another image of the Jack.</p>

@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">History of the Game of Jacks</h1>
+				<div class="author">Amanda Marder</div>
+				
 				<hr>
 
 				<h2 class="sub-title">Personal Perspective on a game remarkable similar to the Game of Jacks.</h2>

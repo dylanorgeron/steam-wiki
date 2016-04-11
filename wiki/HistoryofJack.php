@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">History of the Love Jack</h1>
+				<div class="author">Dylan Orgeron</div>
+				
 				<hr>
 
 				<p>The goal of this perspective was to offer new vistors an insight into the history of the sculpture. Jim Love's artistic background is explored, as well as the journey the Love Jack has made over its life from location to location.</p>

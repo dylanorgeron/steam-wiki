@@ -9,6 +9,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">Filter Pipeline</h1>
+				<div class="author">Melissa Dagley</div>
+				
 				<hr>
 
 				<div class="row">

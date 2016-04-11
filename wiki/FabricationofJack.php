@@ -17,6 +17,8 @@
 			<div class="container" id="article">
 				
 				<h1 id="article-title">Fabrication of Jack</h1>
+				<div class="author">Amanda Marder</div>
+				
 				<hr>
 
 				<img src="https://3.bp.blogspot.com/-eeDI6onEk7A/VvmPi6IDV0I/AAAAAAAAMYc/F6JFZMWc2eUV0QBs53RFjtgOaI5yJG5vA/s1600/3D%2BPrinted_Jacks.jpg">
