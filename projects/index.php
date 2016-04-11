@@ -21,7 +21,7 @@
 						Our goal is to creat eht beginning of something buigger, a place where anyone can contribute their ideas and opinions to be shared and explored. For the first project, we have chosen to dissec the Love Jack, UTD's most iconic sculpture.
 					</p>
 					<br>
-					<a id="discover" href="perspectives.php">Discover Perspectives</a>
+					<a id="discover" href="../perspectives/">Discover Perspectives</a>
 				</div>
 			</div>
 		</div>
