@@ -237,27 +237,56 @@
 	    text-decoration: none;
 	}
 
+
 /*PERSPECTIVES*/
-#perspectives .col-sm-4{
-	margin-bottom: 20px;
-}
+	#perspectives .col-sm-4{
+		margin-bottom: 20px;
+	}
 
-#perspectives h1{
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 1.5em;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+	#perspectives h1{
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    letter-spacing: 2px;
+	    font-size: 1.5em;
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+	}
 
-#perspectives #main-title{
-    text-transform: none;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 2em;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-bottom: 2px solid #4C9859;
-    padding-bottom: 10px;
-}
+	#perspectives #main-title{
+	    text-transform: none;
+	    font-weight: bold;
+	    letter-spacing: 2px;
+	    font-size: 2em;
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+	    border-bottom: 2px solid #4C9859;
+	    padding-bottom: 10px;
+	}
+
+
+/*ARTICLE*/
+	#article{
+		margin-top: 40px;
+		margin-bottom: 100px;
+	}
+
+	#article hr{
+	    margin-top: 10px;
+	    margin-bottom: 30px;
+	    border: 0;
+	    border-top: 2px solid #4C9859;
+	}
+
+	#article h2{
+	    font-size: 1.4em;
+	}
+
+	#article img{
+		max-width: 100%;
+	}
+
+	#code{
+	    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+        background: #EAF1EB;
+        padding:20px;
+	}
