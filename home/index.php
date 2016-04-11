@@ -65,7 +65,7 @@
 					
 					<div id="tag-squares" class="row"></div>
 					
-					<a id="view-more" href="/perspectives">View more</a>
+					<a id="view-more" href="../perspectives">View more</a>
 				</div>
 			</div>
 

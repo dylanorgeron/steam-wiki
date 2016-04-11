@@ -8,7 +8,7 @@ var showProjects = function(category){
 		if(v.category == category && shown < 3){
 			shown++
 			url = v.title.replace(/\s/g, '');
-			$("#tag-squares").append("<div class='col-sm-4'><a href='perspectives/"+url+".php' class='square'><div class='tag-title'>"+v.title+"</div><div class='author'>"+v.author+"</div></a></div>")
+			$("#tag-squares").append("<div class='col-sm-4'><a href='../wiki/"+url+".php' class='square'><div class='tag-title'>"+v.title+"</div><div class='author'>"+v.author+"</div></a></div>")
 		}
 	})
 }
