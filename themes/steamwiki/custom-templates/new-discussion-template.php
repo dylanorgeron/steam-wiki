@@ -48,13 +48,40 @@ get_header(); ?>
 	.mce-path-item.mce-last{
 		display: none;
 	}
+	#piece-info{
+		font-size: 1.2em;
+	}
 </style>
 <script>
 	jQuery("document").ready(function(){
 		var art_object = <?php echo $_GET['art-object']; ?>;
+
+		var previewPiece = function(){
+        	var cat_id =  jQuery("#cat").val()
+        	if(cat_id != -1){
+	        	//ajax for data
+	            jQuery.ajax({
+	                method: "GET",
+	                url: "/wordpress/api/getPieceData.php?cat="+cat_id,
+	                success: function(content, textStatus, jqXHR){
+	                    //update DOM
+	                    content = JSON.parse(content)
+	                    jQuery("document").ready(function(){
+	                    	jQuery("#preview-img").attr('src', content.image_url)
+	                    	jQuery("#piece-info").text(content.title)
+	                    })
+	                }
+	            })
+        	}else{
+            	jQuery("#piece-info").text("")
+            	jQuery("#preview-img").attr('src', '')
+        	}
+		}
 		if(art_object){
 			jQuery("#cat").val(art_object)
+			previewPiece()
 		}
+		jQuery("#cat").change(previewPiece)
 	})
 </script>
 <div id="primary" class="content-area">
@@ -62,46 +89,60 @@ get_header(); ?>
 		<h1>New Discussion</h1>
 		<br>
 		<form action="" id="primaryPostForm" method="POST">
-		    
-		    <!--Title-->
-		    <fieldset>
-		        <label for="postTitle"><?php _e('Title:', 'framework') ?></label>
-		        <input type="text" name="postTitle" id="postTitle" class="required" />
-		    </fieldset>
-
-
+		     
 			<fieldset>
 				<label for="">Which object are you discussing?</label>
-				<br><br>
-				<?php $args = array(
-					'show_option_all'    => '',
-					'show_option_none'   => 'Select an Object',
-					'option_none_value'  => '-1',
-					'orderby'            => 'ID',
-					'order'              => 'ASC',
-					'show_count'         => 0,
-					'hide_empty'         => 0,
-					'child_of'           => 0,
-					'exclude'            => '1',
-					'include'            => '',
-					'echo'               => 1,
-					'selected'           => 0,
-					'hierarchical'       => 0,
-					'name'               => 'cat',
-					'id'                 => '',
-					'class'              => 'postform',
-					'depth'              => 0,
-					'tab_index'          => 0,
-					'taxonomy'           => 'category',
-					'hide_if_empty'      => false,
-					'value_field'	     => 'term_id',
-					);
-					wp_dropdown_categories( $args ); 
-				?>
+				<br>
+				<div class="row">
+					<div class="col-sm-6">
+						<?php $args = array(
+							'show_option_all'    => '',
+							'show_option_none'   => 'Select an Object',
+							'option_none_value'  => '-1',
+							'orderby'            => 'ID',
+							'order'              => 'ASC',
+							'show_count'         => 0,
+							'hide_empty'         => 0,
+							'child_of'           => 0,
+							'exclude'            => '1',
+							'include'            => '',
+							'echo'               => 1,
+							'selected'           => 0,
+							'hierarchical'       => 0,
+							'name'               => 'cat',
+							'id'                 => '',
+							'class'              => 'form-control',
+							'depth'              => 0,
+							'tab_index'          => 0,
+							'taxonomy'           => 'category',
+							'hide_if_empty'      => false,
+							'value_field'	     => 'term_id',
+							);
+							wp_dropdown_categories( $args ); 
+						?>
+					</div>
+					<div class="col-sm-6">
+						<div id="piece-preview">
+							<div class="row">
+								<div class="col-xs-3">
+									<img id="preview-img" src="" alt="">
+								</div>
+								<div class="col-xs-9">
+									<div id="piece-info"></div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+
 			</fieldset>
 
-			<br><br>
-
+		    <!--Title-->
+		    <fieldset>
+		        <label for="postTitle"><?php _e('Discussion Title:', 'framework') ?></label>
+		        <input type="text" name="postTitle" id="postTitle" class="required" />
+		    </fieldset>
+			
 			<?php wp_editor( $content, 'post-content', $settings = array('name'=>'post-content') ); ?> 
 
 		    <!--Submit-->
